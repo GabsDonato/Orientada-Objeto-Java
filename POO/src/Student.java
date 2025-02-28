@@ -1,4 +1,4 @@
-import java.awt.Color;
+/*import java.awt.Color;
 
 public class Student {
     String name;
@@ -46,4 +46,4 @@ class Food {
 
 class Drink {
     // Drink class implementation
-}
+} */
