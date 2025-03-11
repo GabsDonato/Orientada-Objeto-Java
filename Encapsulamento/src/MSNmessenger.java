@@ -1,5 +1,6 @@
 public class MSNmessenger {
     public static void main(String[] args) throws Exception {
+
         MSNmessenger messenger = new MSNmessenger();
         messenger.enviarMensagem();
         messenger.receberMensagem();
@@ -15,11 +16,11 @@ public class MSNmessenger {
         System.out.println("Recebendo mensagem");
     }
 
-    public void validarConectadoInternet(){
+    private void validarConectadoInternet(){
         System.out.println("Valindo se esta conectado a internet");
     }
 
-    public void salvarHistoricoMensagem(){
+    private void salvarHistoricoMensagem(){
         System.out.println("Salvando o histórico da mensagem");
     }
 }
