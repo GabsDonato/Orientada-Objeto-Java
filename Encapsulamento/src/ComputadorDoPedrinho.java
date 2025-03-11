@@ -1,10 +1,8 @@
 public class ComputadorDoPedrinho {
     public static void main(String[] args) {
-        MSNmesseger msn = new MSNmesseger();
+        MSNmessenger msn = new MSNmessenger();
 
-        msn.validarConectadoInternet();
         msn.enviarMensagem();
-        msn.salvarHistoricoMensagem();
 
         msn.receberMensagem();
     }
